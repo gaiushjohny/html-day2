@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.first-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fafafa;
+}
+
+.header-title{
+    margin-bottom: 20px;
+}
+
+.header-nav .nav-link{
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #fafafa;
+}
+
+.about-card{
+    max-width: 800px;
+    background-color: #fdfdfd;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.about-title{
+    margin-bottom: 20px;
+}
+
+.about-text{
+        text-align: justify;
+}
+
+
+.skills-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #fafafa;
+}
+
+.skills-card{
+    max-width: 800px;
+    background-color: #fdfdfd;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.skills-title{
+    margin-bottom: 20px;
+}
+
+.skills-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skill-item{
+    background-color: #eee;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+.contact-section {
+  display: flex;
+  justify-content: center; 
+  padding: 60px 20px;
+  background-color: #fafafa;
+}
+
+
+.contact-card {
+  width: 800px;
+  background: #f9f9f9; /* off-white */
+  border-radius: 12px; /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* soft shadow */
+  padding: 40px; /* spacing inside */
+}
+
+/* Title */
+.contact-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.form-label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* Inputs */
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #999;
+}
+
+/* Textarea */
+.form-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Submit Button */
+.form-submit {
+  background-color: #e0e0e0; /* blends with off-white palette */
+  color: #333;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block;
+  margin: 0 auto; /* centers button */
+}
+
+.form-submit:hover {
+  background-color: #d6d6d6;
+}
